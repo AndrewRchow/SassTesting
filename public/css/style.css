@@ -15,11 +15,19 @@ body {
   font-family: "arial"; }
 
 #box {
-  background: red;
+  background-color: white;
   -webkit-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
   height: 100px;
   width: 100px; }
+  #box a {
+    display: block;
+    border-bottom: 2px solid;
+    opacity: .7; }
+    #box a:nth-child(3) {
+      border: none; }
+    #box a:hover {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

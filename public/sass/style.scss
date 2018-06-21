@@ -10,8 +10,26 @@ body {
 }
 
 #box {
-	background: red;
+	background-color: white;
 	@include border-radius(10px);
 	height: 100px;
 	width: 100px;
+
+	a {
+		display:block;
+		border-bottom: 2px solid;
+		&:nth-child(3) {
+		border:none;
+		}
+		opacity: .7;
+		&:hover {
+			opacity: 1;
+		}
+
+
+
+		
+	}
+
+
 }
