@@ -1,0 +1,19 @@
+.blue {
+  color: 'blue'; }
+
+.red {
+  color: 'red'; }
+
+body {
+  background: blue;
+  font-family: "arial"; }
+
+#box {
+  background: red;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px; }
+
+/*# sourceMappingURL=style.css.map */
