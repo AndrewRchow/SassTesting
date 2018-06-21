@@ -4,6 +4,9 @@
 .blue {
   color: 'blue'; }
 
+.green {
+  color: 'green'; }
+
 body {
   background: blue;
   font-family: "arial"; }
