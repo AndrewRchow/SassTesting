@@ -11,7 +11,8 @@ body {
 
 #box {
 	background-color: white;
-	@include border-radius(10px);
+	@include the-border-radius(0px);
+	border: 1px solid black;
 	height: 100px;
 	width: 100px;
 
